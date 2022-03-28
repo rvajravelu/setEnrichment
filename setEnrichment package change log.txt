@@ -1,0 +1,17 @@
+ClassEnrichment package change log
+
+v2.0.0:
+New package originiated from function "mcea_routine_bootstrapped" from Medication Class Enrichment Anlaysis package v0.1.1.
+- Version update from 0.1.1 to 2.0.0.
+- Class labels can be text now. All class labels are converted to factors, then labels are added back to display results.
+- Removed simulation functions.
+- Added an option to set a seed. Set deafult seed to 654321.
+- Removed bootstrap percentage (defaulted to 100%) and replacement (defaulted to TRUE) options. There are options to change them within the code.
+- Remove standardize ES parameter because it helps deal with class size imbalance. In reality, this was always TRUE in v0.1.1.
+- Remove lowOR recip option and code. Using this would remove the causative/protective information, so now removed.
+- Consolidated plot functions to one function and option.
+- Added a timer.
+- Removed package loading within the function. Added dependencies. The only imported functions are "reshape2" and "ggplot2".
+- Updated internal comments reflect new terminology that is inclusive of all types of xWAS instead of only PWAS (e.g. med --> obs).
+- Cleaned up help file and description file.
+- Three sample datasets included in package.

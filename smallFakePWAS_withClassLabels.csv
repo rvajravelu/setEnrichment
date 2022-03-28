@@ -1,0 +1,14 @@
+﻿med,class,OR
+ibuprofen,NSAID,2.11
+ketorolac,NSAID,2.08
+atorvastatin,Statin,2.05
+naproxen,NSAID,1.88
+pantoprazole,PPI,1.6
+furosemide,Diuretic,1.59
+lisinopril,ACEi,1.51
+dabigitran,DOAC,1.5
+pravastatin,Statin,1.22
+metoclopramide,Anti-dopamine,1.12
+famotidine,H2RA,0.98
+aspirin,Aspirin,0.55
+sitagliptan,SGLT2i,0.32
